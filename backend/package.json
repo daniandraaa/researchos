@@ -1,0 +1,29 @@
+{
+  "name": "researchos-backend",
+  "version": "0.1.0",
+  "description": "ResearchOS API backend",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.1",
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "stripe": "^13.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  }
+}
